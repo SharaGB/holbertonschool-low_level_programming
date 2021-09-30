@@ -1,2 +1,2 @@
 #!/bin/bash
-ggc $CFILE -c ./cisfun
+ggc $CFILE -o ./cisfun
