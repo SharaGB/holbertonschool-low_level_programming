@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -c foo.c $CFILE
