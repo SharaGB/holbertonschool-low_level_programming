@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E testScript.c -o $CFILE c
+gcc -E -o $CFILE c
