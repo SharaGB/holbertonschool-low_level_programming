@@ -21,15 +21,14 @@ int main(void)
 		}
 		else if (x % 5 == 0)
 		{
-			printf("Buzz ");
-		}
-		else if (x <= 100)
-		{
-			printf("%d ", x);
+			if (x <= 100)
+				printf("Buzz ");
+			else
+				printf("%d ", x);
 		}
 		else
 		{
-			printf("%d", x);
+			printf("%d ", x);
 		}
 	}
 	printf("\n");
