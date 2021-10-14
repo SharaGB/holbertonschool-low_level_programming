@@ -8,8 +8,8 @@
  */
 char *rot13(char *str)
 {
-	char *str1 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char *str2 = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char *str1 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char *str2 = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	int i;
 	int j;
 
@@ -20,6 +20,7 @@ char *rot13(char *str)
 			if (str[i] == str1[j])
 			{
 				str[i] = str2[j];
+				break;
 			}
 		}
 	}
