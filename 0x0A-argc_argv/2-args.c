@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - Prints prints all arguments it receives
  * @argc: Check argc
