@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	pesos = atoi(argv[1]);
 	if (pesos < 0)
 	{
-		printf("0\n");
+		printf("%d\n", 0);
 		return (0);
 	}
 	else
