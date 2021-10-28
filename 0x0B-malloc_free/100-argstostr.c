@@ -14,7 +14,7 @@ char *argstostr(int ac, char **av)
 	{
 		return (NULL);
 	}
-	for (i = 1; i < ac; i++)
+	for (i = 2; i < ac; i++)
 	{
 		len += _strlen(av[i]);
 	}
