@@ -51,8 +51,6 @@ int _strlen(char *s)
  * *_strncat - Concatenates two strings
  * @dest: check the string dest
  * @src: check the sting src
- * @n: check
- *
  * Return: dest.
  */
 
