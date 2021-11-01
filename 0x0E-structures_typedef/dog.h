@@ -1,11 +1,11 @@
-#ifndef __DOG_H__
-#define __DOH_H__
+#ifndef _DOG_H_
+#define _DOH_H_
 
 /**
  * struct dog - Check the code
  * @name: Check name of dog
- * @owner: Check owner
- * @age: Check age
+ * @owner: Check owner of dog
+ * @age: Check age of dog
  */
 
 typedef struct dog
@@ -15,4 +15,5 @@ typedef struct dog
 	float age;
 } my_dog;
 
+void init_dog(struct dog *d, char *name, float age, char *owner);
 #endif
