@@ -20,6 +20,7 @@ int main(int argc, char **argv)
 		exit(99);
 	}
 	all_operations = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
+
 	printf("%d\n", all_operations);
 	return (0);
 }
