@@ -1,19 +1,16 @@
-global _start
+section .data
+
+    message db "Hello, world!", 10
 
 section .text
 
+global _start
 _start:
-  mov rax, 1        ; write(
-  mov rdi, 1        ;   STDOUT_FILENO,
-  mov rsi, msg      ;   "Hello, world!\n",
-  mov rdx, msglen   ;   sizeof("Hello, world!\n")
-  syscall           ; );
-
-  mov rax, 60       ; exit(
-  mov rdi, 0        ;   EXIT_SUCCESS
-  syscall           ; );
-
-section .rodata
-  msg: db "Hello, world!", 10
-  msglen: equ $ - msg
-  
+    mov rax, 1
+    mov rdi, 1
+    mov rsi, message
+    mov rdx, 14
+    syscall
+    section .data
+    essage db "Hello, world!", 10
+    
