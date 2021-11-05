@@ -1,6 +1,6 @@
 section .data
 
-    message db "Hello, World", 10
+	msg db  'Hello, world',0xa
 
 section .text
 
