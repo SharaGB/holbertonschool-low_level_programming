@@ -11,6 +11,3 @@ _start:
     mov rsi, message
     mov rdx, 14
     syscall
-    section .data
-    essage db "Hello, world!", 10
-    
