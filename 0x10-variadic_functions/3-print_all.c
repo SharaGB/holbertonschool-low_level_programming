@@ -1,60 +1,80 @@
 #include "variadic_functions.h"
 /**
- * print_all - Prints anything.
+ * format_char - Prints a character
+ * @c: List c
+ */
+void format_char(va_list c)
+{
+	printf("%c", va_arg(c, int));
+}
+
+/**
+ * format_int - Prints a integer
+ * @i: List i
+ */
+void format_int(va_list i)
+{
+	printf("%d", va_arg(i, int));
+}
+
+/**
+ * format_float - Prints a float
+ * @f: List f
+ */
+void format_float(va_list f)
+{
+	printf("%f", va_arg(f, double));
+}
+
+/**
+ * format_char_p - Prints a string
+ * @s: List s
+ */
+void format_char_p(va_list s)
+{
+	char *str = va_arg(s, char *);
+
+	if (!str)
+		str = "(nil)";
+	printf("%s", str);
+}
+
+/**
+ * print_all - Prints anything
  * @format: List of types of arguments passed
  */
-void print_all(const char * const format, ...)
+void print_all(const char *const format, ...)
 {
-    va_list ap;
+	va_list ap;
 
-    int i;
-    float f;
-    char *s;
+	format_t print[] = {
+		{"c", format_char},
+		{"i", format_int},
+		{"f", format_float},
+		{"s", format_char_p},
+		{NULL, NULL}};
 
-    va_start(ap, format);
+	int i = 0, j;
+	char *strn = "";
 
-    if (*p != '%')
-    {
-        putchar(*p);
-        continue;
-    }
-
-    switch (*++p)
-    {
-        case 'c':
-        {
-            printf("%c", (char) va_arg(ap, int));
-            break;
-        }
-        case 'i':
-        {
-            printf("%d", va_arg(ap, int));
-            break;
-        }
-        case 'f':
-        {
-            printf("%f", va_arg(ap, double));
-            break;
-        }
-        case 's':
-        {
-            s = va_arg(ap, char*);
-            if (s)
-            {
-                printf("%s", s);
-                break;
-            }
-            printf("(nil)");
-        }
-        break;
-    }
-    if ((format[i] == 'c' || format[i] == 'f' || format[i] == 's' ||
-		format[i] == 'i') && format[i + 1])
-			printf(", ");
-		i++;
+	va_start(ap, format);
+	while (format && format[i])
+	{
+		j = 0;
+		while (print[j].name)
+		{
+			if (format[i] == *print[j].name)
+			{
+				printf("%s", strn);
+				print[j].f(ap);
+				strn = ", ";
+				break;
+			}
+			j += 1;
+		}
+		i += 1;
 	}
-	break;
-	}
-	va_end(list);
+	va_end(ap);
+
 	printf("\n");
 }
