@@ -1,22 +1,14 @@
 #include "main.h"
 /**
  * print_binary - Function that prints the binary number
- * @n: 
+ * @n: Check number
+ * Return: Void
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int bi;
-	int i = 0;
-
-	for (bi = n; (bi >>= 1) > 0; i++)
-		;
-	while (i >= 0)
+	if (n > 1)
 	{
-		if ((n >> i) & 1)
-			_putchar('1');
-
-		else
-			_putchar('0');
-		i--;
+		print_binary(n >> 1);
 	}
+	_putchar((n & 1) + '0');
 }
