@@ -7,7 +7,17 @@
   */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	unsigned long int x = 01;
+    if (index < 64)
+	{
+		*n &= ~(1 << index);
+		return (1);
+	}
+	return (-1);
+}
+
+/* También funciona
+{
+	unsigned long int x = 1;
 
 	if (index < 64)
 	{
@@ -15,4 +25,4 @@ int set_bit(unsigned long int *n, unsigned int index)
 		return (1);
 	}
 	return (-1);
-}
+}*/
