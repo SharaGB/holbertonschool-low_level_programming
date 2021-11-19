@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  * set_bit - sets the value of a bit
-  * @n: pointer.
-  * @index: index.
-  * Return: the value
+  * get_bit - Function that return the value of a bit
+  * @n: Check number
+  * @index: Check index
+  * Return: Value of the bit at index index or -1 if an error occured
   */
 int set_bit(unsigned long int *n, unsigned int index)
 {
