@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  * get_bit - Function that return the value of a bit
+  * set_bit - Function that return the value of a bit
   * @n: Check number
   * @index: Check index
   * Return: 1 if it worked, or -1 if an error occurred
@@ -16,14 +16,3 @@ int set_bit(unsigned long int *n, unsigned int index)
 	}
 	return (-1);
 }
-
-/* Works too!!
-{
-    if (index < 64)
-	{
-		*n &= ~(1 << index);
-		return (1);
-	}
-	return (-1);
-}
-*/
