@@ -7,8 +7,7 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int sz_rw;
-	int fp = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
+	int fp, sz_rw;
 
 	if (filename == NULL)
 	{
@@ -19,6 +18,7 @@ int create_file(const char *filename, char *text_content)
 		fp = open(filename, O_CREAT | O_TRUNC | S_IRUSR | S_IWUSR);
 		return (1);
 	}
+	fp = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 	sz_rw = write(fp, text_content, _strlen(text_content));
 	if (fp == -1 || sz_rw == -1)
 	{
