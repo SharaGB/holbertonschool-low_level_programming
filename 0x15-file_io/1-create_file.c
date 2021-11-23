@@ -7,8 +7,8 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-	int sz_rw, n;
-	int fp = open(filename, O_RDWR | O_TRUNC | O_CREAT, text_content);
+	int sz_rw;
+	int fp = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
 
 	if (filename == NULL)
 	{
@@ -18,14 +18,27 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (1);
 	}
-	for (n = 0; text_content[n] != '\0'; n++)
-
-		sz_rw = write(fp, text_content, n);
-	if (fp == -1 || sz_rw == -1)
+	sz_rw = write(fp, text_content, strlen(text_content));
+	if (fp == '\0' || sz_rw == -1)
 	{
-		return (-1);
+		return (0);
 	}
 	close(fp);
 
 	return (1);
+}
+
+/**
+ * _strlen - The length of a string
+ * @s: Check the string
+ *
+ * Return: Always 0
+ */
+int _strlen(char *s)
+{
+	int leng = 0;
+
+	while (s[leng] != '\0')
+		leng++;
+	return (leng);
 }
