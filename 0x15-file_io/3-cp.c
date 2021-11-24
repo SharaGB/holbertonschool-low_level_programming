@@ -1,55 +1,54 @@
 #include "main.h"
 /**
- * cp - Progam that copies the content of a file to another file
+ * function_cp - Progam that copies the content of a file to another file
  * @file_to: Check arguments
  * @file_from: String arguments
  * Return: Void
  */
 void function_cp(const char *file_from, const char *file_to)
 {
-	int src, dest, file_r, mode = (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+	int src, dest, file_r, mode;
 	char buf[1024];
 
-	if (file_from)
+	mode = (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+	src = open(file_from, O_RDONLY);
+	if (src == -1)
 	{
-		src = open(file_from, O_RDONLY);
-		if (src == -1)
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+		exit(98);
+	}
+	dest = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, mode);
+	while ((file_r = read(src, buf, 1024)) > 0)
+	{
+		if (write(dest, buf, file_r) == -1)
 		{
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-			exit(98);
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
+			exit(99);
 		}
-		dest = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, mode);
-		while ((file_r = read(src, buf, 1024)) > 0)
-		{
-			if (write(dest, buf, file_r) == -1)
-			{
-				dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-				exit(99);
-			}
-		}
-		if (file_r == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-			exit(98);
-		}
-		close(src);
-		close(dest);
-		if (src == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", src);
-			exit(100);
-		}
-		if (dest == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", dest);
-			exit(100);
-		}
+	}
+	if (file_r == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+		exit(98);
+	}
+	close(src);
+	close(dest);
+	if (src == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", src);
+		exit(100);
+	}
+	if (dest == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", dest);
+		exit(100);
 	}
 }
 
 /**
  * main - Funcion that check the number of argument
  * @argc: Check the number of argument
+ * @argv: Check string arguments
  * Return: Always 0
  */
 int main(int argc, char **argv)
