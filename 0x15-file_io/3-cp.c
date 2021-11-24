@@ -7,7 +7,7 @@
  */
 void function_cp(const char *file_from, const char *file_to)
 {
-	int src, dest, file_r, mode;
+	int src, dest, file_r, mode, close_r, close_w;
 	char buf[1024];
 
 	mode = (S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
@@ -18,27 +18,29 @@ void function_cp(const char *file_from, const char *file_to)
 		exit(98);
 	}
 	dest = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, mode);
-	while ((file_r = read(src, buf, 1024)) > 0)
+	file_r = 1024;
+	while (file_r >= 1024)
 	{
+		file_r = read(src, buf, 1024);
+		if (file_r == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+			exit(98);
+		}
 		if (write(dest, buf, file_r) == -1)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			exit(99);
 		}
 	}
-	if (file_r == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-		exit(98);
-	}
-	close(src);
-	close(dest);
-	if (src == -1)
+	close_r = close(src);
+	close_w = close(dest);
+	if (close_r == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", src);
 		exit(100);
 	}
-	if (dest == -1)
+	if (close_w == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", dest);
 		exit(100);
