@@ -24,11 +24,11 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	}
 	while (current)
 	{
-		if (!current->next && count == index)
+		if (!current->next)
 		{
 			current->prev->next = NULL;
 			free(current);
-			return (-1);
+			return (1);
 		}
 		if (count == index)
 		{
