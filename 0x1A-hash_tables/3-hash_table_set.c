@@ -9,7 +9,7 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	unsigned long int i = key_index((unsigned char *)key, ht->size);
+	unsigned long int index = key_index((unsigned char *)key, ht->size);
 	hash_node_t *new = malloc(sizeof(hash_node_t));
 
 	if (!new)
@@ -17,32 +17,34 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(new);
 		return (0);
 	}
-	if (!strlen(key) || !ht || !ht->array || !ht->size)
+	if (!strlen(key) || !ht || !ht->array || !ht->size) /* Key does not exist */
 	{
 		return (0);
 	}
 	new->key = strdup(key);
 	new->value = strdup(value);
 	new->next = NULL;
-	while (ht->array[i] && i < ht->size)
+	while (ht->array[index] && index < ht->size)
 	{
-		if (ht->array[i]->key == key)
+		if (strcmp(ht->array[index]->key, key) == 0)
 		{
-			ht->array[i]->value = strdup(value);
+			ht->array[index]->value = strdup(value);
+			free(new->key);
+			free(new->value);
 			free(new);
 			return (1);
 		}
 		else
 		{
-			new->next = ht->array[i];
-			ht->array[i] = new;
+			new->next = ht->array[index];
+			ht->array[index] = new;
 			return (1);
 		}
-		i += 1;
+		index += 1;
 	}
-	if (ht->array[i] == 0)
+	if (ht->array[index] == 0)
 	{
-		ht->array[i] = new;
+		ht->array[index] = new;
 	}
 	return (1);
 }
