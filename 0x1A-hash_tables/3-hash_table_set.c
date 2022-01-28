@@ -17,20 +17,21 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(new);
 		return (0);
 	}
-	if (!strlen(key) || !ht || !ht->array || !ht->size) /* Key does not exist */
+	if (strlen(key) == 0 || !ht || !ht->array || !ht->size) /* Key does not exist */
 	{
 		return (0);
 	}
 	new->key = strdup(key);
 	new->value = strdup(value);
 	new->next = NULL;
-	if (ht->array[index])
+	while (ht->array[index] && index < ht->size)
 	{
 		if (strcmp(ht->array[index]->key, key) == 0)
 		{
 			ht->array[index]->value = strdup(value);
 			free(new->key);
 			free(new->value);
+			free(ht->array[index]->value);
 			free(new);
 			return (1);
 		}
@@ -40,6 +41,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 			ht->array[index] = new;
 			return (1);
 		}
+		index += 1;
 	}
 	if (ht->array[index] == NULL)
 	{
