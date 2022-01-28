@@ -17,7 +17,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(new);
 		return (0);
 	}
-	if (strlen(key) == 0 || !ht || !ht->array || !ht->size) /* Key does not exist */
+	if (strlen(key) == 0 || !ht || !ht->array || !ht->size)
 	{
 		return (0);
 	}
