@@ -19,7 +19,7 @@ void hash_table_print(const hash_table_t *ht)
 		print_ht = ht->array[index];
 		while (print_ht)
 		{
-			if (cm == 1)
+			if (cm != 0)
 			{
 				printf(", ");
 			}
@@ -31,6 +31,5 @@ void hash_table_print(const hash_table_t *ht)
 		}
 		index += 1;
 	}
-	printf("}");
-	printf("\n");
+	printf("}\n");
 }
