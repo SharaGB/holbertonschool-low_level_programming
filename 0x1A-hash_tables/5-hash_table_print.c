@@ -17,7 +17,7 @@ void hash_table_print(const hash_table_t *ht)
 	while (index < ht->size)
 	{
 		print_ht = ht->array[index];
-		if (print_ht)
+		while (print_ht)
 		{
 			if (cm == 1)
 			{
