@@ -1,3 +1,5 @@
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdlib.h>
 
 int _putchar(char c);
@@ -7,3 +9,6 @@ char *str_concat(char *s1, char *s2);
 int _strlen(char *s);
 void *_calloc(unsigned int nmemb, unsigned int size);
 int *array_range(int min, int max);
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
+
+#endif /* MAIN_H */
