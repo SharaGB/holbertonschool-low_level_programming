@@ -1,6 +1,5 @@
-# C - Preprocessor
+![images](https://user-images.githubusercontent.com/90220978/155237143-3e8e678a-8011-424c-a506-cd42ed7833ac.png)
 
-<div class="well clean" id="project-description">
   <h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
