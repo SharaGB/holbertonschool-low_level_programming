@@ -56,4 +56,3 @@
 
 <p>You do not have to learn about <code>calloc</code> and <code>realloc</code>.</p>
 
-</div>
