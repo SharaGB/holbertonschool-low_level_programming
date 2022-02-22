@@ -19,11 +19,11 @@ int main(void)
 		second = next;
 		if (i < 97)
 		{
-			printf("%ld, ", next);
+			printf("%li, ", next);
 		}
 		else
 		{
-			printf("%ld\n", next);
+			printf("%li\n", next);
 		}
 	}
 	return (0);
