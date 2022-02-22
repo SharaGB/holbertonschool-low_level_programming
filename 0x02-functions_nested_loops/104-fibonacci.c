@@ -6,24 +6,20 @@
  */
 int main(void)
 {
-	unsigned long int i = 0;
-	unsigned long int n = 98;
-	unsigned long int first = 0;
-	unsigned long int second = 1;
-	unsigned long int next = 0;
+	unsigned long int i, a = 0, b = 1, c;
 
-	for (i = 0; i < n; i++)
+	for (i = 0; i < 98; i++)
 	{
-		next = first + second;
-		first = second;
-		second = next;
+		c = a + b;
+		a = b;
+		b = c;
 		if (i < 97)
 		{
-			printf("%li, ", next);
+			printf("%li, ", c);
 		}
 		else
 		{
-			printf("%li\n", next);
+			printf("%li\n", c);
 		}
 	}
 	return (0);
