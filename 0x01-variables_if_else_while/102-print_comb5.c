@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
 * main - Prints all possible combinations
 *
 * Return: 0
 */
-
 int main(void)
 {
 	int x;
