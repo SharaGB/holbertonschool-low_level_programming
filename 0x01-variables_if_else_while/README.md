@@ -1,4 +1,4 @@
-# C - Variables, if, else, while
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/155166405-c633e6bb-6381-41d8-bec0-c72f12857895.png" align="middle" width="90" height="90"></a> C - Variables, if, else, while
 
 <div class="well clean" id="project-description">
   <h2>Resources</h2>
