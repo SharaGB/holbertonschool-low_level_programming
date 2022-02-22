@@ -1,4 +1,4 @@
-# C - Functions, nested loops
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/155168909-e5ac5890-4db2-4b68-aedf-891443633937.png" align="middle" width="100" height="100"></a> C - Functions, nested loops
 
 <div class="well clean" id="project-description">
   <h2>Resources</h2>
