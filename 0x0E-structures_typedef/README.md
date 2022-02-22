@@ -1,7 +1,6 @@
 # C - Structures, typedef
 
-<div class="well clean" id="project-description">
-  <p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2021/3/50af78a28a081e809856d4cdbde2d7ca9d4aa93d.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220222%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220222T221134Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=33cc2fcbba96ee97e5968621c063968844ea7cfe4fcf1c99a19a8bafd28f8234" alt="" style="width: 500px"></p>
+![50af78a28a081e809856d4cdbde2d7ca9d4aa93d](https://user-images.githubusercontent.com/90220978/155236213-f7538b78-003b-46e9-a94a-69ac2a3e57fe.jpg)
 
 <h2>Resources</h2>
 
