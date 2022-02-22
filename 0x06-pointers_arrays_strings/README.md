@@ -1,7 +1,6 @@
 # C - More pointers, arrays and strings
 
-<div class="well clean" id="project-description">
-  <p><img src="/images/contents/low_level_programming/projects/happy-clapping.gif" alt="" style=""></p>
+![happy-clapping](https://user-images.githubusercontent.com/90220978/155219226-ce4ab632-c18b-491b-b94a-2a4d6cda26ac.gif)
 
 <h2>Requirements</h2>
 
