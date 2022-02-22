@@ -12,9 +12,11 @@ int main(void)
 	unsigned long int second = 1;
 	unsigned long int next = 0;
 
-	next = first + second;
 	for (i = 0; i < n; i++)
 	{
+		next = first + second;
+		first = second;
+		second = next;
 		if (i < 97)
 		{
 			printf("%ld, ", next);
@@ -23,9 +25,6 @@ int main(void)
 		{
 			printf("%ld\n", next);
 		}
-		first = second;
-		second = next;
-		next = first + second;
 	}
 	return (0);
 }
