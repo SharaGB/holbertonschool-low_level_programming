@@ -10,8 +10,9 @@ int main(void)
 	unsigned long int n = 98;
 	unsigned long int first = 0;
 	unsigned long int second = 1;
-	unsigned long int next = first + second;
+	unsigned long int next = 0;
 
+	next = first + second;
 	for (i = 0; i < n; i++)
 	{
 		if (i < 97)
