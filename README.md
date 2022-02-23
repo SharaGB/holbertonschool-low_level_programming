@@ -48,7 +48,7 @@ and more!
 24. [0x0E-structures_typedef](./0x0E-structures_typedef)
 25. [0x0F-function_pointers](./0x0F-function_pointers)
 26. [0x1A-hash_tables](./0x1A-hash_tables)
-27. [0x1B-sorting_algorithms](https://github.com/SharaGB/sorting_algorithms) * ***Separate repository*** *
+27. [0x1B-sorting_algorithms](https://github.com/SharaGB/sorting_algorithms) * *Separate repository* *
 
 ## Author
 The work is done 🖊 by Shara Garcia ([@SharaGarcia](https://twitter.com/_Rassvet_x)). Credits for the group projects are shown in the respective projects.
