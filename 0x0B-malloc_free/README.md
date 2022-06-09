@@ -1,5 +1,21 @@
 # C - malloc, free
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at this concept:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/62">Automatic and dynamic allocation, malloc and free</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 ![EYeDmSMWoAIwwSq](https://user-images.githubusercontent.com/90220978/155228903-fe866a5b-63e8-48c8-8e04-9e2e0ebb4c75.jpg)
 
 <div class="well clean" id="project-description">
@@ -8,8 +24,8 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/aRWpmTTHkSS2nTGh0Q5xyA" title="0x0a - malloc &amp; free - quick overview.pdf" target="_blank">0x0a - malloc &amp; free - quick overview.pdf</a></li>
-<li><a href="/rltoken/yD3tk5u--ws7QNFwTOfaDQ" title="Dynamic memory allocation in C - malloc calloc realloc free" target="_blank">Dynamic memory allocation in C - malloc calloc realloc free</a> (<em>stop at 6:50</em>)</li>
+<li><a href="https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/a094c90e7f466bbeaa49cb24c8f04e7f27aaad41.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T230732Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=8cebad50ecfaec5399dcfce86fb01e54af13983bfdfa9f3cb8ddc7d9930c3dfe" title="0x0a - malloc &amp; free - quick overview.pdf" target="_blank">0x0a - malloc &amp; free - quick overview.pdf</a></li>
+<li><a href="https://www.youtube.com/watch?v=xDVC3wKjS64" title="Dynamic memory allocation in C - malloc calloc realloc free" target="_blank">Dynamic memory allocation in C - malloc calloc realloc free</a> (<em>stop at 6:50</em>)</li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -21,7 +37,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/apBF53_9RDiTkG8MSIxyQw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -55,4 +71,3 @@
 <h2>More Info</h2>
 
 <p>You do not have to learn about <code>calloc</code> and <code>realloc</code>.</p>
-
