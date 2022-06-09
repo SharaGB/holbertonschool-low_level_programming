@@ -6,24 +6,33 @@
  */
 int main(void)
 {
-	unsigned long int i = 0;
-	unsigned long int first = 0;
-	unsigned long int second = 1;
-	unsigned long int next = 0;
+	int i = 0;
+	unsigned long int n1 = 1, n2 = 2, n3 = 0;
+	unsigned long int d1 = 0, d3 = 0, r1 = 0, r2 = 0;
 
-	for (i = 0; i < 98; i++)
+	printf("%lu, ", n1);
+	printf("%lu, ", n2);
+	for (i = 3; i <= 98; i++)
 	{
-		next = (first + second) % 10000000000;
-		first = second;
-		second = next;
-		if (i < 97)
+		if ((n1 + n2 > 10000000000) || r2 > 0 || r1 > 0)
 		{
-			printf("%ld, ", next);
+			d1 = (n1 + n2) / 10000000000;
+			n3 = (n1 + n2) % 10000000000;
+			d3 = r1 + r2 + d1;
+			r1 = r2, r2 = d3;
+			n1 = n2, n2 = n3;
+			printf("%lu%010lu", r2, n2);
 		}
 		else
 		{
-			printf("%ld\n", next);
+			n3 = n1 + n2;
+			printf("%lu", n3);
+			n1 = n2;
+			n2 = n3;
 		}
+		if (i != 98)
+			printf(", ");
 	}
+	printf("\n");
 	return (0);
 }
