@@ -1,5 +1,21 @@
 # C - Singly linked lists
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at this concept:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/120">Data Structures</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 <div class="well clean" id="project-description">
   <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/229/giphy-3.gif" alt="" style=""></p>
 
@@ -8,14 +24,14 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/2WOe5XO84Puxd4Y1FUJwVQ" title="Linked Lists" target="_blank">Linked Lists</a> </li>
-<li><a href="/rltoken/jiyCC9L1Axkl_nEmuh4j3w" title="Google" target="_blank">Google</a> </li>
-<li><a href="/rltoken/DcEVPdONWy2p1x8XPH53Uw" title="Youtube" target="_blank">Youtube</a> </li>
+<li><a href="https://www.youtube.com/watch?v=udapt4FGY20&feature=youtu.be&t=2m10s" title="Linked Lists" target="_blank">Linked Lists</a> </li>
+<li><a href="https://www.google.com/#q=linked+lists" title="Google" target="_blank">Google</a> </li>
+<li><a href="https://www.youtube.com/results?search_query=linked+lists" title="Youtube" target="_blank">Youtube</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/3Nj_wUvnBJD6wSUyHGt6qw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
