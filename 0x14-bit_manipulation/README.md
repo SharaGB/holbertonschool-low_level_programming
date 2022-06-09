@@ -8,13 +8,13 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/3N9o0-Gy3fxQoXJy6TUUHw" title="Google" target="_blank">Google</a> </li>
-<li><a href="/rltoken/7jk6HSHSs-DdXMEPKW1MoQ" title="Youtube" target="_blank">Youtube</a> </li>
+<li><a href="https://www.google.com/webhp?q=bit+manipulation+C" title="Google" target="_blank">Google</a> </li>
+<li><a href="https://www.youtube.com/results?search_query=bitwise+operators+in+c" title="Youtube" target="_blank">Youtube</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/-ZIYjWJH7o7oKoASL2Hs1w" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
