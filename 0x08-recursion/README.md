@@ -8,16 +8,16 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/g3Ad0OyVWFDcLFUsTHREmw" title="0x08. Recursion, introduction" target="_blank">0x08. Recursion, introduction</a></li>
-<li><a href="/rltoken/2EGCEPVnMI-2DHexDv_eog" title="What on Earth is Recursion?" target="_blank">What on Earth is Recursion?</a> </li>
-<li><a href="/rltoken/hVLQFbmh7l9Fb6TKZpPHUg" title="C - Recursion" target="_blank">C - Recursion</a> </li>
-<li><a href="/rltoken/MvRHIlpXvInQh0e6yegKkg" title="C Programming Tutorial 85, Recursion pt.1" target="_blank">C Programming Tutorial 85, Recursion pt.1</a> </li>
-<li><a href="/rltoken/CYd7QYGpVE_TmfjRJwZOwg" title="C Programming Tutorial 86, Recursion pt.2" target="_blank">C Programming Tutorial 86, Recursion pt.2</a> </li>
+<li><a href="https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T225830Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=a0d02e6f16de9f79767224f99cb1a01f03c5e8e05e7575e5348f06ef6d9df9d4" title="0x08. Recursion, introduction" target="_blank">0x08. Recursion, introduction</a></li>
+<li><a href="https://www.youtube.com/watch?v=Mv9NEXX1VHc" title="What on Earth is Recursion?" target="_blank">What on Earth is Recursion?</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_recursion.htm" title="C - Recursion" target="_blank">C - Recursion</a> </li>
+<li><a href="https://www.youtube.com/watch?v=XGxbXMP6k8k" title="C Programming Tutorial 85, Recursion pt.1" target="_blank">C Programming Tutorial 85, Recursion pt.1</a> </li>
+<li><a href="https://www.youtube.com/watch?v=7XiIS6HobNs" title="C Programming Tutorial 86, Recursion pt.2" target="_blank">C Programming Tutorial 86, Recursion pt.2</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/YmUDFjMH7irFRVWf9cqDSg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
