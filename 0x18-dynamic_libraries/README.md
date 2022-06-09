@@ -6,14 +6,14 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/FrHmqtTW-frrOt0yf2blOw" title="What is difference between Dynamic and Static library (Static and Dynamic linking)" target="_blank">What is difference between Dynamic and Static library (Static and Dynamic linking)</a> </li>
-<li><a href="/rltoken/Zj0XtgNWUQyEYuABr47p8Q" title="create dynamic libraries on Linux" target="_blank">create dynamic libraries on Linux</a> </li>
-<li><a href="/rltoken/NnmQ5eohod3BpT3r0cFlRA" title="Technical Writing" target="_blank">Technical Writing</a></li>
+<li><a href="https://www.youtube.com/watch?v=eW5he5uFBNM" title="What is difference between Dynamic and Static library (Static and Dynamic linking)" target="_blank">What is difference between Dynamic and Static library (Static and Dynamic linking)</a> </li>
+<li><a href="https://www.google.com/#q=linux+create+dynamic+library" title="create dynamic libraries on Linux" target="_blank">create dynamic libraries on Linux</a> </li>
+<li><a href="https://students-support.hbtn.io/hc/en-us/articles/360023750254" title="Technical Writing" target="_blank">Technical Writing</a></li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/lGoZtRxuUUfU6ujbaKwHgw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
