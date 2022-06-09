@@ -1,5 +1,21 @@
 # C - Even more pointers, arrays and strings.
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at this concept:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/60">Pointers and arrays</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 <div class="well clean" id="project-description">
   <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/218/58fe6b229144b7fe5ebe88afe9ff5cabe2dd0863e1e79b2d02b4103c30b465dd.jpg" alt="" style=""></p>
 
@@ -8,15 +24,15 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/97ic1ots5Y44UW4c5HBtRQ" title="C - Pointer to Pointer" target="_blank">C - Pointer to Pointer</a> </li>
-<li><a href="/rltoken/SLQf1I04zyLrA0OYFgXzlg" title="C – Pointer to Pointer with example" target="_blank">C – Pointer to Pointer with example</a> </li>
-<li><a href="/rltoken/OINOASSTk6-D9PqX2oZZYw" title="Multi-dimensional Arrays in C" target="_blank">Multi-dimensional Arrays in C</a> </li>
-<li><a href="/rltoken/czf9xxN9_8ISUNWTsLfBcw" title="Two dimensional (2D) arrays in C programming with example" target="_blank">Two dimensional (2D) arrays in C programming with example</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_pointer_to_pointer.htm" title="C - Pointer to Pointer" target="_blank">C - Pointer to Pointer</a> </li>
+<li><a href="https://beginnersbook.com/2014/01/c-pointer-to-pointer/" title="C – Pointer to Pointer with example" target="_blank">C – Pointer to Pointer with example</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm" title="Multi-dimensional Arrays in C" target="_blank">Multi-dimensional Arrays in C</a> </li>
+<li><a href="https://beginnersbook.com/2014/01/2d-arrays-in-c-example/" title="Two dimensional (2D) arrays in C programming with example" target="_blank">Two dimensional (2D) arrays in C programming with example</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/N_QWLE8qj0RMCvNF0XjdKA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
