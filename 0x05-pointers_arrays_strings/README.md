@@ -1,5 +1,24 @@
 # C - pointers, arrays and strings
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at these concepts:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/60">Pointers and arrays</a>
+          </li>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/120">Data Structures</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 <div class="well clean" id="project-description">
   <p><img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/216/IMG_2410.JPG"></p>
 
@@ -8,15 +27,15 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/JDzn5TfvFN41WKKvjOfvTg" title="C - Arrays" target="_blank">C - Arrays</a> </li>
-<li><a href="/rltoken/9CA1cUi3AxHOszdncsKC7g" title="C - Pointers" target="_blank">C - Pointers</a> </li>
-<li><a href="/rltoken/VBdJIrssmpg5YLOfoGTVnA" title="C - Strings" target="_blank">C - Strings</a> </li>
-<li><a href="/rltoken/XCdri62uArXHsZev8zHhnA" title="Memory Layout" target="_blank">Memory Layout</a></li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_arrays.htm" title="C - Arrays" target="_blank">C - Arrays</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_pointers.htm" title="C - Pointers" target="_blank">C - Pointers</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_strings.htm" title="C - Strings" target="_blank">C - Strings</a> </li>
+<li><a href="https://aticleworld.com/memory-layout-of-c-program/" title="Memory Layout" target="_blank">Memory Layout</a></li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/njG9BD_e7rtF-j51ESBzng" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
