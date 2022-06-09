@@ -6,9 +6,9 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/KNHC7kjcnZZCKDCHdXis4w" title="stdarg.h" target="_blank">stdarg.h</a> </li>
-<li><a href="/rltoken/VOS7s9X1ysxlU2X3xtCmFw" title="Variadic Functions" target="_blank">Variadic Functions</a> </li>
-<li><a href="/rltoken/vxuoclIH_Hap9c7sciDnFQ" title="Const Keyword" target="_blank">Const Keyword</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Stdarg.h" title="stdarg.h" target="_blank">stdarg.h</a> </li>
+<li><a href="https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html" title="Variadic Functions" target="_blank">Variadic Functions</a> </li>
+<li><a href="https://www.youtube.com/watch?v=1W4oyuOdXv8" title="Const Keyword" target="_blank">Const Keyword</a> </li>
 </ul>
 
 <!-- - [C - Variable Arguments](/rltoken/zwbmuG8xpQ-ezg9_U8a6mg)
@@ -22,7 +22,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/naLM53LaUqIfwpf8-xihZg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
