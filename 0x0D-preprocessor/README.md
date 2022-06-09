@@ -5,19 +5,19 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/UlmUG7PSamY2_qL6xze6wg" title="Understanding C program Compilation Process" target="_blank">Understanding C program Compilation Process</a> </li>
-<li><a href="/rltoken/KAqnlwAvPZ84KI2JFlJpSg" title="Object-like Macros" target="_blank">Object-like Macros</a> </li>
-<li><a href="/rltoken/cJyU0mmGRx_Wd9x8WwygOQ" title="Macro Arguments" target="_blank">Macro Arguments</a> </li>
-<li><a href="/rltoken/A5176irunoejPUjwT3pFCQ" title="Pre Processor Directives in C" target="_blank">Pre Processor Directives in C</a> </li>
-<li><a href="/rltoken/lgohqkU5DlzUBkO2MeMmHA" title="The C Preprocessor" target="_blank">The C Preprocessor</a> </li>
-<li><a href="/rltoken/C47iIZ3tGug6sklTB7hT_Q" title="Standard Predefined Macros" target="_blank">Standard Predefined Macros</a> </li>
-<li><a href="/rltoken/sqLUMtBCgAAXVdhIaVoaWQ" title="include guard" target="_blank">include guard</a> </li>
-<li><a href="/rltoken/fJJUPJ-zZXlh3db00FEsJw" title="Common Predefined Macros" target="_blank">Common Predefined Macros</a> </li>
+<li><a href="https://www.youtube.com/watch?v=VDslRumKvRA" title="Understanding C program Compilation Process" target="_blank">Understanding C program Compilation Process</a> </li>
+<li><a href="https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Object-like-Macros.html#Object-like-Macros" title="Object-like Macros" target="_blank">Object-like Macros</a> </li>
+<li><a href="https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Macro-Arguments.html#Macro-Arguments" title="Macro Arguments" target="_blank">Macro Arguments</a> </li>
+<li><a href="https://www.youtube.com/watch?v=X6HiYbY3Uak" title="Pre Processor Directives in C" target="_blank">Pre Processor Directives in C</a> </li>
+<li><a href="https://www.cprogramming.com/tutorial/cpreprocessor.html" title="The C Preprocessor" target="_blank">The C Preprocessor</a> </li>
+<li><a href="https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Standard-Predefined-Macros.html#Standard-Predefined-Macros" title="Standard Predefined Macros" target="_blank">Standard Predefined Macros</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Include_guard" title="include guard" target="_blank">include guard</a> </li>
+<li><a href="https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Common-Predefined-Macros.html#Common-Predefined-Macros" title="Common Predefined Macros" target="_blank">Common Predefined Macros</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/mn8Yoq1uLMNqJfqX1eFYkw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
