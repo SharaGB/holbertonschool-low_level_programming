@@ -1,12 +1,28 @@
 # C - More malloc, free
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at this concept:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/62">Automatic and dynamic allocation, malloc and free</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 <div class="well clean" id="project-description">
   <h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/xRakq81EUvl-3QG_3QUC8A" title="Do I cast the result of malloc?" target="_blank">Do I cast the result of malloc?</a> </li>
+<li><a href="https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc" title="Do I cast the result of malloc?" target="_blank">Do I cast the result of malloc?</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -19,7 +35,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/ahat4zA8ssXZCSJ6eU2JdA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
