@@ -8,16 +8,16 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/d6TBbj0HA4EvnmpqvEz68Q" title="Everything you need to know to start with C.pdf" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first</em>)</li>
-<li><a href="/rltoken/vY9KI1Ai38BUuydEfadtaA" title="Dennis Ritchie" target="_blank">Dennis Ritchie</a> </li>
-<li><a href="/rltoken/f5nVwIVoNRrnddbX-5h5rw" title="&quot;C&quot; Programming Language: Brian Kernighan" target="_blank">“C” Programming Language: Brian Kernighan</a> </li>
-<li><a href="/rltoken/J7yAaPGVuPoJI4iP1DuIPw" title="Why C Programming Is Awesome" target="_blank">Why C Programming Is Awesome</a> </li>
-<li><a href="/rltoken/AicyjqLinWdA9qxKsXBKjg" title="Learning to program in C part 1" target="_blank">Learning to program in C part 1</a> </li>
-<li><a href="/rltoken/1qtDStnOrOjrVseFa3jngA" title="Learning to program in C part 2" target="_blank">Learning to program in C part 2</a> </li>
-<li><a href="/rltoken/qM-SOqtf8ZnGxVtVWchAfg" title="Understanding C program Compilation Process" target="_blank">Understanding C program Compilation Process</a> </li>
-<li><a href="/rltoken/8c-wkUvvmuA_d5s4ktmnEw" title="Betty Coding Style" target="_blank">Betty Coding Style</a> </li>
-<li><a href="/rltoken/7oODGrfLgAJJzoCbfBap3Q" title="Hash-bang under the hood" target="_blank">Hash-bang under the hood</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
-<li><a href="/rltoken/8rYFkn82I0QlSygvC0u2Jw" title="Linus Torvalds on C vs. C++" target="_blank">Linus Torvalds on C vs. C++</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
+<li><a href="https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/d801279f75de6a982a55d752dfd3632909f720f0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T221654Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=6841fb16f666d96997a4523713135fee7b07ebe43558944faae140b7b25d1e5a" title="Everything you need to know to start with C.pdf" target="_blank">Everything you need to know to start with C.pdf</a> (<em>You do not have to learn everything in there yet, but make sure you read it entirely first</em>)</li>
+<li><a href="https://en.wikipedia.org/wiki/Dennis_Ritchie" title="Dennis Ritchie" target="_blank">Dennis Ritchie</a> </li>
+<li><a href="https://www.youtube.com/watch?v=de2Hsvxaf8M" title="&quot;C&quot; Programming Language: Brian Kernighan" target="_blank">“C” Programming Language: Brian Kernighan</a> </li>
+<li><a href="https://www.youtube.com/watch?v=smGalmxPVYc" title="Why C Programming Is Awesome" target="_blank">Why C Programming Is Awesome</a> </li>
+<li><a href="https://www.youtube.com/watch?v=rk2fK2IIiiQ" title="Learning to program in C part 1" target="_blank">Learning to program in C part 1</a> </li>
+<li><a href="https://www.youtube.com/watch?v=FwpP_MsZWnU" title="Learning to program in C part 2" target="_blank">Learning to program in C part 2</a> </li>
+<li><a href="https://www.youtube.com/watch?v=VDslRumKvRA" title="Understanding C program Compilation Process" target="_blank">Understanding C program Compilation Process</a> </li>
+<li><a href="https://github.com/holbertonschool/Betty/wiki" title="Betty Coding Style" target="_blank">Betty Coding Style</a> </li>
+<li><a href="https://twitter.com/unix_byte/status/1024147947393495040?s=21" title="Hash-bang under the hood" target="_blank">Hash-bang under the hood</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
+<li><a href="http://harmful.cat-v.org/software/c++/linus" title="Linus Torvalds on C vs. C++" target="_blank">Linus Torvalds on C vs. C++</a> (<em>Look at only after you finish consuming the other resources</em>)</li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -31,7 +31,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/IU8pPF3LtFsVkcyn4BUITA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -83,8 +83,8 @@
 <p>To run the Betty linter just with command <code>betty &lt;filename&gt;</code>:</p>
 
 <ul>
-<li>Go to the <a href="/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ" title="Betty" target="_blank">Betty</a> repository</li>
-<li>Clone the <a href="/rltoken/Iz34GJJ6iQ28q3sJXRUdkQ" title="repo" target="_blank">repo</a> to your local machine</li>
+<li>Go to the <a href="https://github.com/holbertonschool/Betty" title="Betty" target="_blank">Betty</a> repository</li>
+<li>Clone the <a href="https://github.com/holbertonschool/Betty" title="repo" target="_blank">repo</a> to your local machine</li>
 <li><code>cd</code> into the Betty directory</li>
 <li>Install the linter with <code>sudo ./install.sh</code></li>
 <li><code>emacs</code> or <code>vi</code> a new file called <code>betty</code>, and copy the script below:</li>
