@@ -6,15 +6,15 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/9qSBELMTQW1ldB0yGS6VZQ" title="Arguments to main" target="_blank">Arguments to main</a> </li>
-<li><a href="/rltoken/WL2UmZcO4fWhIgW-a1vePg" title="argc and argv" target="_blank">argc and argv</a> </li>
-<li><a href="/rltoken/hWES8SJFzZJeWm0bBC5v8A" title="What does argc and argv mean?" target="_blank">What does argc and argv mean?</a> </li>
-<li><a href="/rltoken/k7iIVMXLkWDm2D2ATHb6xw" title="how to compile with unused variables" target="_blank">how to compile with unused variables</a> </li>
+<li><a href="https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html" title="Arguments to main" target="_blank">Arguments to main</a> </li>
+<li><a href="http://crasseux.com/books/ctutorial/argc-and-argv.html" title="argc and argv" target="_blank">argc and argv</a> </li>
+<li><a href="https://www.youtube.com/watch?v=aP1ijjeZc24" title="What does argc and argv mean?" target="_blank">What does argc and argv mean?</a> </li>
+<li><a href="https://www.google.com/webhp?q=unused+variable+C" title="how to compile with unused variables" target="_blank">how to compile with unused variables</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/LlxSqMZX9I3fvnUqZa9osg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
