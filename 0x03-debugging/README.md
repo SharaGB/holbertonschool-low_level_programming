@@ -1,20 +1,36 @@
 # Debugging
 
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Concepts</h3>
+    </div>
+    <div class="panel-body">
+      <p>
+        <em>For this project, we expect you to look at this concept:</em>
+      </p>
+      <ul>
+          <li>
+            <a href="https://intranet.hbtn.io/concepts/75">The Framework</a>
+          </li>
+      </ul>
+    </div>
+</div>
+
 <div class="well clean" id="project-description">
   <h2>Resources</h2>
 
 <p><strong>Read or watch:</strong></p>
 
 <ul>
-<li><a href="/rltoken/iADtJa-KkjYI56m-cQyWIw" title="Debugging" target="_blank">Debugging</a></li>
-<li><a href="/rltoken/sS_CVV32moC3tyEImNCvig" title="Rubber Duck Debugging" target="_blank">Rubber Duck Debugging</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Debugging" title="Debugging" target="_blank">Debugging</a></li>
+<li><a href="https://www.thoughtfulcode.com/rubber-duck-debugging-psychology/" title="Rubber Duck Debugging" target="_blank">Rubber Duck Debugging</a></li>
 </ul>
 
 <p>Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as <code>gdb</code> or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually.</p>
 
 ![af682f2cbb6d73fd4e42](https://user-images.githubusercontent.com/90220978/155211150-e5f2610c-c282-4661-9fc9-b5cba4a874fc.jpg)
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/mrElWdkThHc-wwWBat00qg" title="explain to anyone" target="_blank">explain to anyone</a>, without the help of Google:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, without the help of Google:</p>
 
 <h3>General</h3>
 
