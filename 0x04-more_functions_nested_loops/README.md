@@ -6,16 +6,16 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/3WXPpZkwBEt_9MOlayYGWw" title="Nested while loops" target="_blank">Nested while loops</a> </li>
-<li><a href="/rltoken/ES8eagOrYppE4qSjaa4zQA" title="C - Functions" target="_blank">C - Functions</a> </li>
-<li><a href="/rltoken/X8cL-h23A-vdFyuRmomKQQ" title="Learning to Program in C (Part 06)" target="_blank">Learning to Program in C (Part 06)</a> (<em>stop at 14:00</em>)</li>
-<li><a href="/rltoken/IAfwYbkv3JHqttvqlnz0Bw" title="What is the purpose of a function prototype?" target="_blank">What is the purpose of a function prototype?</a> </li>
-<li><a href="/rltoken/QvgB8JXWlTL_yqsUD-3-ag" title="C - Header Files" target="_blank">C - Header Files</a> (<em>stop before the “Once-Only Headers” paragraph</em>)</li>
+<li><a href="https://www.youtube.com/watch?v=Z3iGeQ1gIss" title="Nested while loops" target="_blank">Nested while loops</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_functions.htm" title="C - Functions" target="_blank">C - Functions</a> </li>
+<li><a href="https://www.youtube.com/watch?v=qMlnFwYdqIw" title="Learning to Program in C (Part 06)" target="_blank">Learning to Program in C (Part 06)</a> (<em>stop at 14:00</em>)</li>
+<li><a href="https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/" title="What is the purpose of a function prototype?" target="_blank">What is the purpose of a function prototype?</a> </li>
+<li><a href="https://www.tutorialspoint.com/cprogramming/c_header_files.htm" title="C - Header Files" target="_blank">C - Header Files</a> (<em>stop before the “Once-Only Headers” paragraph</em>)</li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/c9oJTC58gt2dxAAIPt5Qmw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
