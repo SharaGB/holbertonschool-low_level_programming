@@ -7,18 +7,18 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/Rc1JAo6IS9HkELfLUylh2g" title="0x0d. Structures.pdf" target="_blank">0x0d. Structures.pdf</a></li>
-<li><a href="/rltoken/sF_gQY2e9CP95XbgWQkduA" title="struct (C programming language)" target="_blank">struct (C programming language)</a> </li>
-<li><a href="/rltoken/7VySR2oMyxk7VMR8LLOvZA" title="Documentation: structures" target="_blank">Documentation: structures</a> </li>
-<li><a href="/rltoken/kef9P9qRh_co4dxwHU8QGA" title="0x0d. Typedef and structures.pdf" target="_blank">0x0d. Typedef and structures.pdf</a></li>
-<li><a href="/rltoken/-vbMNPFrIA5PcVs4RiWr4g" title="typedef" target="_blank">typedef</a> </li>
+<li><a href="https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T231720Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c4f16d4dede4c888b17e926ad867dd429d5ea4a9f94f00ae1a355a8f811c6196" title="0x0d. Structures.pdf" target="_blank">0x0d. Structures.pdf</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Struct_(C_programming_language)" title="struct (C programming language)" target="_blank">struct (C programming language)</a> </li>
+<li><a href="https://github.com/holbertonschool/Betty/wiki/Documentation:-Data-structures" title="Documentation: structures" target="_blank">Documentation: structures</a> </li>
+<li><a href="https://holbertonintranet.s3.amazonaws.com/uploads/misc/2021/1/c8ff3e6f7202be7fa489a584e41d005504a07c23.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220609%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220609T231809Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=c1c0e60de1e465b8a62a6e2da7eea0653e0c136ae3094213c94ae6986e4e114d" title="0x0d. Typedef and structures.pdf" target="_blank">0x0d. Typedef and structures.pdf</a></li>
+<li><a href="https://publications.gbdirect.co.uk//c_book/chapter8/typedef.html" title="typedef" target="_blank">typedef</a> </li>
 <li><strong>Programming in C</strong> by Stephen Kochan - <em>Chapter 8, Working with Structures p163-189</em></li>
-<li><a href="/rltoken/92gDeb3TtzgLDpzo9DXfZg" title="The Lost Art of C Structure Packing" target="_blank">The Lost Art of C Structure Packing</a> (<em>Advanced - not mandatory</em>)</li>
+<li><a href="http://www.catb.org/esr/structure-packing/" title="The Lost Art of C Structure Packing" target="_blank">The Lost Art of C Structure Packing</a> (<em>Advanced - not mandatory</em>)</li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/SJC6PvFo2vSFZW0M7u-caw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
