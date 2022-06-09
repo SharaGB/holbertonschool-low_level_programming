@@ -6,16 +6,16 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/LvjzIoEU3gQ_D5QCwoGtxA" title="Function Pointer in C" target="_blank">Function Pointer in C</a> </li>
-<li><a href="/rltoken/3y_80bkcxiZ5Pc5Zk6NCvQ" title="Pointers to functions" target="_blank">Pointers to functions</a> </li>
-<li><a href="/rltoken/i-zereq8foaoJZfG383Rvg" title="Function Pointers in C / C++" target="_blank">Function Pointers in C / C++</a> </li>
-<li><a href="/rltoken/jbk8p-_m0dJq2KC7tHrJbg" title="why pointers to functions?" target="_blank">why pointers to functions?</a> </li>
-<li><a href="/rltoken/HuMpTjvVc_PxonkOuzQEbg" title="Everything you need to know about pointers in C" target="_blank">Everything you need to know about pointers in C</a> </li>
+<li><a href="https://www.geeksforgeeks.org/function-pointer-in-c/" title="Function Pointer in C" target="_blank">Function Pointer in C</a> </li>
+<li><a href="https://publications.gbdirect.co.uk//c_book/chapter5/function_pointers.html" title="Pointers to functions" target="_blank">Pointers to functions</a> </li>
+<li><a href="https://www.youtube.com/watch?v=ynYtgGUNelE" title="Function Pointers in C / C++" target="_blank">Function Pointers in C / C++</a> </li>
+<li><a href="https://www.youtube.com/watch?v=sxTFSDAZM8s" title="why pointers to functions?" target="_blank">why pointers to functions?</a> </li>
+<li><a href="https://boredzo.org/pointers/" title="Everything you need to know about pointers in C" target="_blank">Everything you need to know about pointers in C</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/_YIO2e-atMICPHZqBvulIA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
