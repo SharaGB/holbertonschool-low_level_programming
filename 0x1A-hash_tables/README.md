@@ -5,14 +5,14 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/uodWZz-2jyHReOeToaLNdQ" title="What is a HashTable Data Structure - Introduction to Hash Tables , Part 0" target="_blank">What is a HashTable Data Structure - Introduction to Hash Tables , Part 0</a> </li>
-<li><a href="/rltoken/YiFi_oMjd9cZ4VepsS2RKQ" title="Hash function" target="_blank">Hash function</a> </li>
-<li><a href="/rltoken/Kswyyb1f2JY3dn-3TEckUQ" title="Hash table" target="_blank">Hash table</a> </li>
+<li><a href="https://www.youtube.com/watch?v=MfhjkfocRR0" title="What is a HashTable Data Structure - Introduction to Hash Tables , Part 0" target="_blank">What is a HashTable Data Structure - Introduction to Hash Tables , Part 0</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Hash_function" title="Hash function" target="_blank">Hash function</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Hash_table" title="Hash table" target="_blank">Hash table</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/SmLa7_BRX2WRy6XHO9Ad_A" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -85,8 +85,8 @@ typedef struct hash_table_s
 
 <h3>Python Dictionaries</h3>
 
-<p>Python dictionaries are implemented using hash tables. When you will be done with this project, you will be able to better understand the power and simplicity of Python dictionaries. So much is actually happening when you type <code>d = {'a': 1, 'b': 2}</code>, but everything looks so simple for the user. Python doesn’t use the exact same implementation than the one you will work on today though. If you are curious on how it works under the hood, here is a good blog post about <a href="/rltoken/xbVAHxQXggTizbyADfqVHA" title="how dictionaries are implemented in Python 2.7" target="_blank">how dictionaries are implemented in Python 2.7</a> (not mandatory).</p>
+<p>Python dictionaries are implemented using hash tables. When you will be done with this project, you will be able to better understand the power and simplicity of Python dictionaries. So much is actually happening when you type <code>d = {'a': 1, 'b': 2}</code>, but everything looks so simple for the user. Python doesn’t use the exact same implementation than the one you will work on today though. If you are curious on how it works under the hood, here is a good blog post about <a href="http://www.laurentluce.com/posts/python-dictionary-implementation/" title="how dictionaries are implemented in Python 2.7" target="_blank">how dictionaries are implemented in Python 2.7</a> (not mandatory).</p>
 
-<p>Note that all dictionaries are not implemented using hash tables and there is a difference between a dictionary and a hash table. <a href="/rltoken/KqbaAcY0JIUDHcP-AcILhA" title="Read more here" target="_blank">Read more here</a> (not mandatory).</p>
+<p>Note that all dictionaries are not implemented using hash tables and there is a difference between a dictionary and a hash table. <a href="https://stackoverflow.com/questions/2061222/what-is-the-true-difference-between-a-dictionary-and-a-hash-table" title="Read more here" target="_blank">Read more here</a> (not mandatory).</p>
 
 </div>
