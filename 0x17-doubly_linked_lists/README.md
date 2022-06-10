@@ -6,12 +6,12 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/d6DW7K0HrkIcVdzZxkidDw" title="What is a Doubly Linked List" target="_blank">What is a Doubly Linked List</a> </li>
+<li><a href="https://www.youtube.com/watch?v=k0pjD12bzP0" title="What is a Doubly Linked List" target="_blank">What is a Doubly Linked List</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/Gsqf2PCASKI5Q7pWrtFeIQ" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -51,7 +51,7 @@
  * @next: points to the next node
  *
  * Description: doubly linked list node structure
- * 
+ *
  */
 typedef struct dlistint_s
 {
