@@ -6,13 +6,13 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/VxmJXbHtjDMJAKj7dU-6sg" title="Google" target="_blank">Google</a> </li>
-<li><a href="/rltoken/PqebvZ1ey95sB8eDiYl8_A" title="Youtube" target="_blank">Youtube</a> </li>
+<li><a href="https://www.google.com/#q=linked+lists" title="Google" target="_blank">Google</a> </li>
+<li><a href="https://www.youtube.com/results?search_query=linked+lists" title="Youtube" target="_blank">Youtube</a> </li>
 </ul>
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/DlhcZuh0iPUH4vAgmqNAvA" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
