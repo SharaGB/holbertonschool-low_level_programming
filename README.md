@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Content](#content)
 * [Projects](#projects)
-* [Author](#author)
+* [Author](#id-section1)
 
 ## Content
 In this repository you will find projects in C programming language.
@@ -51,6 +51,8 @@ and more!
 27. [0x1B-sorting_algorithms](https://github.com/SharaGB/sorting_algorithms) * ***Separate repository*** *
 28. [0x1C-makefiles](./0x1C-makefiles/)
 29. [0x1D-binary_trees](https://github.com/SharaGB/binary_trees) * ***Separate repository*** *
+
+<div id='id-section1'/>
 
 ## Author 🖊
 The work is done by <a href="https://www.linkedin.com/in/sharagb/" title="Shara García" target="_blank">Shara García</a>. Credits for the group projects are shown in the respective projects.
