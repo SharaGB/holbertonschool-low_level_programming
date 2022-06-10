@@ -6,8 +6,8 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/zwnc2vqfmCs_ZThsyxkjJw" title="File descriptors" target="_blank">File descriptors</a> </li>
-<li><a href="/rltoken/Ig_LMzPlXTT-EwoSAgYK-Q" title="C Programming in Linux Tutorial #024 - open() read() write() Functions" target="_blank">C Programming in Linux Tutorial #024 - open() read() write() Functions</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/File_descriptor" title="File descriptors" target="_blank">File descriptors</a> </li>
+<li><a href="https://www.youtube.com/watch?v=dP3N8g7h8gY" title="C Programming in Linux Tutorial #024 - open() read() write() Functions" target="_blank">C Programming in Linux Tutorial #024 - open() read() write() Functions</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -22,7 +22,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/P0824k6np2sTua7wMdZL-Q" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
